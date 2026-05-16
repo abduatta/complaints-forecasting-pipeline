@@ -4,7 +4,7 @@ Executive Summary
 This project delivers a robust, automated statistical forecasting pipeline built to model and predict daily complaint volumes over a 90-day future horizon. Developed using Python and the Pandas framework, the core analytical engine deploys a SARIMAX (Seasonal Autoregressive Integrated Moving Average with Exogenous Regressors) model. This architecture captures intricate temporal dynamics and calendar effects while concurrently controlling for varying operational drivers.
 
 Model Specification & Statistical Framework
-Rather than relying on basic baseline structures like ARMA or ARIMA which lack the capacity to account for strong weekly variations or process multi-variable environments—this pipeline implements a comprehensive SARIMAX(1, 1, 1)x(1, 1, 1, 7) setup:
+Rather than relying on basic baseline structures like ARMA or ARIMA which lack the capacity to account for strong weekly variations or process multi-variable environments this pipeline implements a comprehensive SARIMAX(1, 1, 1)x(1, 1, 1, 7) setup:
 
 1. Non-Seasonal Order Configurations: (1, 1, 1)
 Autoregressive Component (AR - p=1): Captures immediate day-to-day serial dependencies, ensuring that today's projection is conditionally grounded in yesterday's actual volumes.
