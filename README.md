@@ -26,8 +26,8 @@ To guarantee mathematical integrity during the feature engineering phase, the hi
 
 Out-of-Sample Forecast Behavior
 The future 90-day baseline stabilizes above the 100-complaints threshold, which is fully justified by two core statistical behaviors:
-1.Trend Inheritance:** The model successfully inherits a distinct upward trend dominating the final phases of the three-year historical dataset.
-2. Steady-State Exogenous Baselines:** Future exogenous features—specifically staffing capacity (staffing_level_fte) and public media footprints (media_mentions) are held at their recent 30-day trailing means. This projects a realistic, elevated operational equilibrium while allowing the conditional 7-day seasonal peaks and valleys to fluctuate naturally.
+1.Trend Inheritance:The model successfully inherits a distinct upward trend dominating the final phases of the three-year historical dataset.
+2. Steady-State Exogenous Baselines:Future exogenous features—specifically staffing capacity (staffing_level_fte) and public media footprints (media_mentions) are held at their recent 30-day trailing means. This projects a realistic, elevated operational equilibrium while allowing the conditional 7-day seasonal peaks and valleys to fluctuate naturally.
 
 Project Deliverables
 * forecast_pipeline.py: The main executable time-series script.
