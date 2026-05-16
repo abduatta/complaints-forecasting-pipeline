@@ -31,6 +31,6 @@ The future 90-day baseline stabilizes above the 100-complaints threshold, which 
 
 Project Deliverables
 * forecast_pipeline.py: The main executable time-series script.
-* complaints_90_day_forecast.csv`: Output data table containing out-of-sample predictions.
+* complaints_90_day_forecast.csv: Output data table containing out-of-sample predictions.
 * forecast_chart.png: High-resolution visual plot mapping historical intake against the 90-day future projection.
 
